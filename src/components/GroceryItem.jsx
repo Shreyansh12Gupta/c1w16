@@ -14,7 +14,7 @@ const GroceryItem = (props) => {
     <CardButton/>
   </div>
   </div>
-  )
+   )
 };
 export default GroceryItem;
 

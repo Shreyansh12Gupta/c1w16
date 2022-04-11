@@ -20,6 +20,7 @@ const CartButton = () => {
   )}
   </div>
   </>
+  
   );
 };
 export default CartButton;
