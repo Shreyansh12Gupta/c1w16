@@ -1,15 +1,25 @@
 
-// keep the add to cart component here
+import React, {useState} from "react"
 const CartButton = () => {
-    //manage state of the count 
-  return <>
-  {/* add to cart button */}
-  {/* count with - and  + button */}
+   
+    const [count,setCount]=useState(0)
+    const handleClick=(value)=>{
+      setCount(count+value)
+    }
+  return(
+<>
   <div>
-      <button>-</button>
+  {count>0 ? (
+    <>
+    <button onClick={() => handleClick(-1)} className="minus">-</button>
       <p className="count-item">{count}</p>
-      <button>+</button>
+      <button onClick={() => handleClick(+1)} className="plus">+</button>
+    </>
+  ):(
+    <p onClick={() => setCount((prevCount)=>(prevCount +1))}>Add to Cart</p>
+  )}
   </div>
-  </>;
+  </>
+  );
 };
-export default CartButton
+export default CartButton;
