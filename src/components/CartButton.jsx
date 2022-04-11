@@ -16,7 +16,7 @@ const CartButton = () => {
       <button onClick={() => handleClick(+1)} className="plus">+</button>
     </>
   ):(
-    <p onClick={() => setCount((prevCount)=>(prevCount +1))}>Add to Cart</p>
+    <p onClick={() => setCount((prevCount)=>(prevCount +1))} className="butt">Add to Cart</p>
   )}
   </div>
   </>

@@ -1,0 +1,33 @@
+
+.head{
+    color:red;
+}
+.butt{
+    background: #008ecc;
+    width: 40%;
+    margin: auto;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+    color: #fff;
+    font-weight: 500px;
+    cursor: pointer;
+}
+.minus{
+    background: #008ecc;
+    border-radius: 15px;
+    width:30px;
+    height: 30px;  
+    border:0; 
+    font-size: 20px;
+}
+.plus{
+    background: #008ecc;
+    border-radius: 15px;
+    width:30px;
+    height: 30px;  
+    border:0; 
+    font-size: 20px;
+}
